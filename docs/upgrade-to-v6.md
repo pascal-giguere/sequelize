@@ -12,6 +12,7 @@ Sequelize v6 will only support Node 8 and up
 
 CLS allowed implicit passing of the `transaction` property to query options inside of a transaction.
 This feature was removed for 3 reasons.
+
 - It required hooking the promise implementation which is not sustainable for the future of sequelize.
 - It's generally unsafe due to it's implicit nature.
 - It wasn't always reliable when mixed promise implementations were used.
