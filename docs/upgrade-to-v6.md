@@ -17,7 +17,7 @@ This feature was removed for 3 reasons.
 - It's generally unsafe due to it's implicit nature.
 - It wasn't always reliable when mixed promise implementations were used.
 
-Check all your usage of the `.transaction` method and make you sure explicitly pass the `transaction` object for each subsequent query.
+Check all your usage of the `.transaction` method and make sure to explicitly pass the `transaction` object for each subsequent query.
 
 #### Example
 
